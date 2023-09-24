@@ -1,0 +1,299 @@
+
+
+.start{
+    
+}
+
+.start h4{
+    font-size: 30px;
+}
+
+.manuBar{
+
+}
+
+.manuBar ul li{
+    list-style: none;
+    
+}
+
+.manuBar ul li a{
+    text-decoration: none;
+    padding: 20px 25px;
+    color: black;
+}
+
+
+
+
+.bannerSection{
+    padding: 30px 0;
+}
+
+.showSection{
+    padding: 21px 2px;
+    
+}
+
+.showSection h1 {
+    font-family: BlinkMacSystemFont;
+    font-weight: 700;
+    font-size: 83px;
+    margin: 22px 0;
+
+}
+
+.showSection h5{
+    font-family: Newsreader;
+    font-weight: 500;
+}
+
+.appSection {
+    display: flex;
+    margin-left: -16px;
+    padding: 12px 0px;
+}
+
+.appSection img {
+    width: 189px;
+    height: 48px;
+}
+
+/* iPhoneSection */
+
+.iphone1{
+    padding: 20px 50px;
+    position: relative;
+}
+.iphone1::after {
+    content: "";
+    top: 152px;
+    left: -4px;
+    position: absolute;
+    width: 52%;
+    height: 50%;
+    border-radius: 50%;
+
+    background-image: linear-gradient( to right , #4530eb, #9e1ae1);
+    z-index: -1;
+}
+
+.iphone1 img {
+    width: 423px;
+    height: 550px;
+    z-index: 1;
+}
+
+/* iPhoneSection End */
+
+
+.TnwSection{
+    background-color: #4834d4;
+
+}
+
+
+.text{
+    text-align: center;
+    color: white;
+    
+}
+
+.text h3{
+    font-size: 55px;
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.logoSection img{
+    width: 190px;
+    height: 155px;    
+}
+
+.logoSection{
+    padding: 30px;
+}
+
+/* DevicSection */
+
+.iphone2 {
+    padding: 20px 50px;
+    width: 466px;
+    position: relative;
+}
+
+
+.iphone2::after {
+    content: "";
+    top: 127px;
+    left: -6px;
+    width: 56%;
+    height: 50%;
+    position: absolute;
+    background-color: #686de0;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+
+.iphone2 img {
+    z-index: 1;
+    max-width: 100%;
+}
+
+.grid1 {
+    padding: 37px;
+    margin-left: 53px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.device1 i {
+    color: #4834d4;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.text1 h3{
+    font-size: 30px;
+    color: rgb(7, 17, 2);
+}
+
+.text1 p{
+   font-size: 15px; 
+}
+
+/* EnterSection */
+
+.enter {
+    margin-top: 23%;
+    padding: 0px 21px;
+}
+
+.enter h1{
+    font-size: 70px;
+}
+
+.enter h6{
+    font-size: 20px;
+    color: #636e72;
+    margin-top: 30px;
+}
+
+.EnterSection{
+    background-color: #dfe6e9;
+    padding: 30px 0;
+}
+
+.cirle {
+    padding: 36px 35px;
+    margin-left: 30px;
+}
+
+/* ctaSection */
+
+.ctaSection{
+    padding: 15rem 0;
+    background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.ctaSection::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #011e63a1;
+    opacity: .5;
+    z-index: -1;
+
+}
+
+.Stop h1{
+    font-size: 73px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+}
+
+.banner-btn{
+    padding: 15px 25px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    background: #306ef8;
+    color: #fff;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.banner-btn:hover{
+    color: #010816;
+    background: #fff;
+    
+}
+
+.GetSecton{
+    background-color: #4834d4;
+    padding: 30px;
+}
+
+.get{
+    padding: 40px;
+}
+.get h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.appSection2 {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0px;
+}
+
+
+.appSection2 img {
+    width: 189px;
+    height: 48px;
+    display: inline-block;
+}
+
+
+.footerSection{
+    background-color: black;
+    padding: 40px 0;
+}
+
+.footerSection p{
+    text-align: center;
+    color: #636e72;
+    font-size: 20px;
+}
+
+.privacy ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.privacy ul li{
+   list-style: none;
+}
+.privacy ul li a{
+    color: #636e72;
+    padding: 20px 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
